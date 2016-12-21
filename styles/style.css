@@ -1,0 +1,126 @@
+body{
+	font-size: 10px;
+}
+
+
+
+.color-rosa{
+	color:pink;
+}
+
+h3, p{
+	font-family: Roboto, sans-serif;
+}
+
+article h3.titulo{
+	color:green;
+}
+.titulo{
+	font-size: 40px;
+	font-style: italic;
+	color: blue;
+	/* poner todo en may y subrayado*/
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.titulo{
+	color: red;
+}
+
+.cuadrado{
+	height: 200px;
+	width: 200px;
+	background: blue;
+	border-top: 4px solid red;
+	border-left: 10px dotted yellow;
+	border-bottom: 9px double pink;
+	border-right: 4px dashed orange;
+
+}
+
+.boton{
+	background: red;
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+.boton:hover{
+	background: blue;
+	color: yellow;
+}
+
+.elementos li{
+	color:red;
+}
+
+.elementos li:first-child{
+	color:blue;
+}
+
+.elementos li:last-child{
+	color: green;
+}
+
+.elementos li:nth-child(2){
+	color: pink;
+}
+
+.elementos li:nth-child(odd){
+	background: gray;
+}
+
+.circulo{
+	border: 3px dashed yellow;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+
+}
+
+.circulo-rojo{
+	background: red;
+}
+
+.circulo-azul{
+	background: blue;
+}
+
+.circulo-verde{
+	background: green;
+}
+
+.estilo{
+	font-size: 15px;
+	line-height: 240%;
+	letter-spacing: 11px;
+}
+
+.li{
+	list-style: none;
+}
+
+.fb{
+	font-size: 100px;
+	color: #3b5998;
+}
+
+.tw{
+	font-size: 100px;
+	color: #0084b4;
+}
+
+.inst{
+	font-size: 100px;
+	color: #125688;
+}
+
+.linkedin{
+	font-size: 100px;
+	color: #0077B5;
+
+}
